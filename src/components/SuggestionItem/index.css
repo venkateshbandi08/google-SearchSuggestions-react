@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.each-suggestion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion-text {
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+.arrow-img-button {
+  background-color: transparent;
+  outline: none;
+  border: 0px solid;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.arrow-img {
+  width: 25px;
+}
